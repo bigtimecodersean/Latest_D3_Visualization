@@ -1,0 +1,51 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: white;
+  /* color-scheme: light dark; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+#chart {
+  margin-top: 10px;
+}
+
+.container h1 {
+  margin-left: 515px; /* Adjust this value as needed */
+}
+
+.buttonsAndSliders{
+  margin-left: 620px;
+}
+
+.container {
+  margin: 10px 0px 0px 0px;
+  align-items: center; /* Center horizontally */
+
+}
+
+.charts {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0px 0px 450px;
+  align-items: center; /* Center horizontally */
+
+}
+
+
+.chartsContainers{
+  display: grid;
+  justify-content: space-evenly; /* Distribute items evenly */
+  grid-template-columns: 1fr 1fr; /* Two equal columns */
+  gap: 10px; /* Gap between items */
+  padding: 10px; /* Padding around the grid */
+  align-items: center; /* Center horizontally */
+
+}
